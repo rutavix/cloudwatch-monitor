@@ -1,0 +1,14 @@
+{
+  "name": "cloudwatch-monitor",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Simple metrics monitor service and summary endpoints.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
